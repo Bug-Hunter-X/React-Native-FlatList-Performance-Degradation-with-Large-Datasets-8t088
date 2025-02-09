@@ -1,0 +1,1 @@
+In React Native, when working with FlatList, an uncommon error arises when attempting to render a large dataset.  The error doesn't manifest as a crash, but rather as extremely slow rendering or even an unresponsive UI. This often occurs because the FlatList is re-rendering the entire list for minor data changes (such as adding one item to the end).
